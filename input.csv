@@ -1,0 +1,17 @@
+Electrical Appliances
+Washing machine (W),Tumble Dryer (W),Television (W),Kettle (W),Lighting (W),Microwave (W),Fridge (W),Toaster (W)
+500,2500,70,2100,400,1100,200,1300
+
+Tariffs
+Tariff,Standing Charge (£/month),Day unit cost (£/Kwh),Night unit cost (£/Kwh),Monthly Discount Threshold (Kwh),Monthly Discount(%)
+Tariff 1,6.00,0.135,0.135,275,10.00
+Tariff 2,6.30,0.150,0.120,280,11.00
+Tariff 3,6.00,0.160,0.110,290,11.00
+Tariff 4,6.15,0.150,0.130,300,12.00
+
+Household Monthly Usage (Day & Night Hours)
+Household,Washing machine (day hours/night hours),Tumble Dryer (day hours/night hours),Television (day hours/night hours),Kettle (day hours/night hours),Lighting (day hours/night hours),Microwave (day hours/night hours),Fridge (day hours/night hours),Toaster (day hours/night hours)
+Household A,12d/8n,12d/8n,16d/60n,1d/1n,84d/112n,2n,360d/360n,2d
+Household B,12n,8n,12d/48n,1d/2n,60d/112n,2n,360d/360n,1d/1n
+Household C,16d/8n,12d/12n,24d/24n,2d,112d/64n,4d/2n,360d/360n,1d/1n
+Household D,12d/12n,8d/12n,16d/32n,3d/2n,56d/84n,4d,360d/360n,2d
