@@ -5,9 +5,9 @@ You are tasked with building a tool to identify the cheapest electricity tariff 
 
 Each household is assumed to have the same electrical appliances. Each appliance has a stated power consumption in Watts (W) and is run for a certain number of hours each month, which varies from house to house.
 
-Each tariff specifies different unit costs per kilowatt hour (kWh) and there are different rates for daytime and night-time electricity consumption.  Additionally, each tariff has a fixed monthly standing charge, regardless of consumption.
+Each tariff specifies different unit costs per kilowatt hour (kWh) and there are different rates for daytime and night-time electricity consumption.  Additionally, each tariff has a fixed monthly standing charge, regardless of consumption. Finally, each tariff offers a percentage discount on the cost of electricity consumed per month above a specified threshold (in kWh). The discount does not apply to the standing charge.
 
-Finally, each tariff offers a percentage discount on the cost of electricity consumed per month above a specified threshold (in kWh). The discount does not apply to the standing charge. Identify the cheapest tariff per household when discounts are considered.
+Identify the cheapest tariff per household when discounts are considered.
 
 ## Input
 Your tool should accept `input.csv` as input. It contains three datasets:
